@@ -17,11 +17,11 @@ const HeroSection = () => {
 
             <div className="relative">              
                 <img src="img.png" alt="" className="w-[100%] max-w-[550px]"/>
-                <div className="absolute">
-                    <p>The number one service that renders quick healthcare in Nigeria</p>
+                <div className="absolute shadow-2xl top-[290px] -left-24 bg-white rounded-2xl px-3 py-3">
+                    <p className="text-center text-sm ">The number one service that <br />renders quick healthcare in Nigeria</p>
                 </div>
-                <div className="absolute">
-                    <p>You don't have to forget taking that medication because we're here to remind you</p>
+                <div className="absolute top-[200px] -right-6 shadow-2xl bg-white px-3 py-3 rounded-2xl">
+                    <p>You don't have to <br /> forget taking <br />that medication <br /> because we're here <br /> to remind you</p>
                 </div>
                 <div className="w-[500px] h-[350px] bg-[#B0C5FF] rounded-2xl absolute -z-10 top-32 left-3">
 
