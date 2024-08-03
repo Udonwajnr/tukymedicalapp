@@ -2,8 +2,8 @@ import React from 'react'
 
 const Table = () => {
   return (
-    <table class="table-component">
-        <thead className="bg-[#F5F5F5]">
+    <table className="table-component table-fixed w-full rounded-3xl">
+        <thead className="bg-[#F5F5F5] text-center h-[48px] rounded-3xl">
             <tr>
             <th>ID</th>
             <th>Prescription</th>
@@ -16,8 +16,8 @@ const Table = () => {
             <th>Selling Price</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
+        <tbody className="rounded-3xl">
+            <tr className="text-center bg-[#E4E4E4] h-[38px]">
                 <td>01</td>
                 <td>Code</td>
                 <td>Amilodippine</td>

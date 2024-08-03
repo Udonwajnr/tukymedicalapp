@@ -16,14 +16,10 @@
   }
 }
 
-body {
- 
-}
-
 @layer utilities {
 
 }
 
-.table-component{
-  
+table{
+ border-radius:300px
 }
