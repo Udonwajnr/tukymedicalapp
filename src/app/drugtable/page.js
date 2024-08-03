@@ -9,7 +9,7 @@ const DrugTable = () => {
             <h1 className="text-[28px] px-5">DrugTable</h1>
             {/* <hr className="border border-[#E0DDDD]"/> */}
         </div>
-        <div className="px-5 mt-6 ">
+        <div className=" mt-6 rounded-3xl border-4 overflow-hidden">
             <Table/>
        </div>
     </TableLayout>
