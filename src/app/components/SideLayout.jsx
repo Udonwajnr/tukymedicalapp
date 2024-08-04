@@ -1,6 +1,9 @@
+"use client"
 import React from 'react'
-
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 const SideLayout = ({children}) => {
+    const pathname = usePathname()
   return (
     <section className="flex ">
         <div className="bg-[#10172A] h-screen w-72 flex flex-col justify-center sticky top-0 px-2">
@@ -8,12 +11,13 @@ const SideLayout = ({children}) => {
                 <h2 className="text-white text-[30px]">
                     Requested Access to get Started
                 </h2>
-                <p className="text-white">This will take a few Minutes</p>
+                <p className="text-white mt-3">This will take a few Minutes</p>
             </div>
 
             <div className="mt-16">
                 <div >
                     <label className="container flex flex-row items-center gap-x-7">
+                        
                         <div className="w-5 h-5 rounded-full bg-green-500 flex justify-center items-center overflow-hidden border-2 border-[#8E8E8E]">
                             <input type="checkbox" className='w-full h-full border-none'/>
                         </div>
